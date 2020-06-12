@@ -1,0 +1,21 @@
+.btn {
+  padding: 1rem 2rem;
+  font-family: var(--source-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &--primary {
+    background-color: var(--yellow-vivid-500);
+    color: var(--blue-grey-800);
+    border: 1px solid var(--yellow-vivid-500);
+  }
+
+  &--secondary {
+    background-color: transparent;
+    border: 1px solid var(--blue-grey-200);
+    color: var(--blue-grey-700);
+  }
+}
