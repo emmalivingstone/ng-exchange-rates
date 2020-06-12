@@ -1,0 +1,108 @@
+:root {
+  --lato: 'Lato', sans-serif;
+  --source-sans: 'Source Sans Pro', sans-serif;
+
+  --box-shadow-1: 0 1px 3px hsla(0, 0%, 0%, 0.12), 0 1px 2px hsla(0, 0%, 0%, 0.24);
+  --box-shadow-2: 0 3px 6px hsla(0, 0%, 0%, 0.15), 0 2px 4px hsla(0, 0%, 0%, 0.12);
+  --box-shadow-3: 0 10px 20px hsla(0, 0%, 0%, 0.15), 0 3px 6px hsla(0, 0%, 0%, 0.1);
+  --box-shadow-4: 0 15px 25px hsla(0, 0%, 0%, 0.15), 0 5px 10px hsla(0, 0%, 0%, 0.05);
+  --box-shadow-5: 0 20px 40px hsla(0, 0%, 0%, 0.2);
+
+  // Sizing system
+  --size-4: 0.4rem;
+  --size-8: 0.8rem;
+  --size-12: 1.2rem;
+  --size-16: 1.6rem;
+  --size-24: 2.4rem;
+  --size-32: 3.2rem;
+  --size-48: 4.8rem;
+  --size-64: 6.4rem;
+  --size-96: 9.6rem;
+  --size-128: 12.8rem;
+  --size-192: 19.2rem;
+  --size-256: 25.6rem;
+  --size-384: 38.4rem;
+  --size-512: 51.2rem;
+  --size-640: 64rem;
+  --size-768: 76.8rem;
+
+  // Font size system
+  --font-size-12: 1.2rem;
+  --font-size-14: 1.4rem;
+  --font-size-16: 1.6rem;
+  --font-size-18: 1.8rem;
+  --font-size-20: 2rem;
+  --font-size-24: 2.4rem;
+  --font-size-30: 3rem;
+  --font-size-36: 3.6rem;
+  --font-size-48: 4.8rem;
+  --font-size-60: 6rem;
+  --font-size-72: 7.2rem;
+
+  // Colours
+
+  // Primary
+  --blue-050: #dceefb;
+  --blue-100: #b6e0fe;
+  --blue-200: #84c5f4;
+  --blue-300: #62b0e8;
+  --blue-400: #4098d7;
+  --blue-500: #2680c2;
+  --blue-600: #186faf;
+  --blue-700: #0f609b;
+  --blue-800: #0a558c;
+  --blue-900: #003e6b;
+
+  // Primary Accent
+  --yellow-vivid-050: #fffbea;
+  --yellow-vivid-100: #fff3c4;
+  --yellow-vivid-200: #fce588;
+  --yellow-vivid-300: #fadb5f;
+  --yellow-vivid-400: #f7c948;
+  --yellow-vivid-500: #f0b429;
+  --yellow-vivid-600: #de911d;
+  --yellow-vivid-700: #cb6e17;
+  --yellow-vivid-800: #b44d12;
+  --yellow-vivid-900: #8d2b0b;
+
+  // Neutrals - Greys
+  --blue-grey-050: #f0f4f8;
+  --blue-grey-100: #d9e2ec;
+  --blue-grey-200: #bcccdc;
+  --blue-grey-300: #9fb3c8;
+  --blue-grey-400: #829ab1;
+  --blue-grey-500: #627d98;
+  --blue-grey-600: #486581;
+  --blue-grey-700: #334e68;
+  --blue-grey-800: #243b53;
+  --blue-grey-900: #102a43;
+
+  // Supporting - used for states etc.
+  --cyan-050: #e0fcff;
+  --cyan-100: #bef8fd;
+  --cyan-200: #87eaf2;
+  --cyan-300: #54d1db;
+  --cyan-400: #38bec9;
+  --cyan-500: #2cb1bc;
+  --cyan-600: #14919b;
+  --cyan-700: #0e7c86;
+  --cyan-800: #0a6c74;
+  --cyan-900: #044e54;
+
+  --red-050: #ffeeee;
+  --red-100: #facdcd;
+  --red-200: #f29b9b;
+  --red-300: #e66a6a;
+  --red-400: #d64545;
+  --red-500: #ba2525;
+  --red-600: #a61b1b;
+  --red-700: #911111;
+  --red-800: #780a0a;
+  --red-900: #610404;
+
+  // Text
+
+  --primary-content-color: var(--blue-grey-900); // e.g. Headline
+  --secondary-content-color: var(--blue-grey-500); // e.g. Article date
+  --tertiary-content-color: var(--blue-grey-100); // e.g. Copyright notice
+}
