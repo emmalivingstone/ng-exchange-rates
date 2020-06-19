@@ -1,0 +1,24 @@
+.card {
+  box-shadow: var(--box-shadow-3);
+  border-radius: 5px;
+  overflow: hidden;
+
+  &__content {
+    padding: var(--size-48) var(--size-48);
+  }
+
+  &__title {
+    font-size: var(--font-size-12);
+    color: var(--secondary-content-color);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: var(--source-sans);
+    letter-spacing: 0.75px;
+    margin-bottom: var(--size-12);
+  }
+
+  &__footer {
+    background-color: var(--blue-grey-050);
+    padding: var(--size-16);
+  }
+}

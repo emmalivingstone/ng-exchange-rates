@@ -1,0 +1,14 @@
+.dashboard {
+  &__header {
+    width: 100%;
+    height: var(--size-64);
+    border-bottom: 1px solid var(--blue-grey-050);
+  }
+
+  &__content {
+    padding: var(--size-32) var(--size-48);
+  }
+
+  &__grid {
+  }
+}
