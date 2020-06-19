@@ -2,11 +2,11 @@
   --lato: 'Lato', sans-serif;
   --source-sans: 'Source Sans Pro', sans-serif;
 
-  --box-shadow-1: 0 1px 3px hsla(0, 0%, 0%, 0.12), 0 1px 2px hsla(0, 0%, 0%, 0.24);
-  --box-shadow-2: 0 3px 6px hsla(0, 0%, 0%, 0.15), 0 2px 4px hsla(0, 0%, 0%, 0.12);
-  --box-shadow-3: 0 10px 20px hsla(0, 0%, 0%, 0.15), 0 3px 6px hsla(0, 0%, 0%, 0.1);
-  --box-shadow-4: 0 15px 25px hsla(0, 0%, 0%, 0.15), 0 5px 10px hsla(0, 0%, 0%, 0.05);
-  --box-shadow-5: 0 20px 40px hsla(0, 0%, 0%, 0.2);
+  --box-shadow-1: 0 1px 3px hsla(0, 0%, 0%, 0.2);
+  --box-shadow-2: 0 4px 6px hsla(0, 0%, 0%, 0.2);
+  --box-shadow-3: 0 5px 15px hsla(0, 0%, 0%, 0.2);
+  --box-shadow-4: 0 10px 24px hsla(0, 0%, 0%, 0.2);
+  --box-shadow-5: 0 15px 35px hsla(0, 0%, 0%, 0.2);
 
   // Sizing system
   --size-4: 0.4rem;
@@ -16,6 +16,7 @@
   --size-24: 2.4rem;
   --size-32: 3.2rem;
   --size-48: 4.8rem;
+  --size-56: 5.6rem;
   --size-64: 6.4rem;
   --size-96: 9.6rem;
   --size-128: 12.8rem;

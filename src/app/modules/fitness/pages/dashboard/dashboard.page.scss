@@ -1,0 +1,9 @@
+.dashboard {
+  &__header {
+    padding: var(--size-96) var(--size-96) 0;
+  }
+
+  &__content {
+    padding: var(--size-48) var(--size-96);
+  }
+}

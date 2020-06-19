@@ -1,0 +1,13 @@
+.collection {
+  padding: var(--size-24);
+
+  &__grid {
+    padding: var(--size-32) 0;
+    display: grid;
+    align-content: space-between;
+    justify-content: space-evenly;
+    grid-column-gap: var(--size-24);
+    grid-row-gap: var(--size-32);
+    grid-template-columns: repeat(auto-fit, minmax(var(--size-384), var(--size-384)));
+  }
+}

@@ -1,1 +1,6 @@
-Collection Page
+<div class="collection">
+  <h2>Popular</h2>
+  <div class="collection__grid">
+    <dsgn-show *ngFor="let show of shows$ | async" [show]="show"> </dsgn-show>
+  </div>
+</div>
