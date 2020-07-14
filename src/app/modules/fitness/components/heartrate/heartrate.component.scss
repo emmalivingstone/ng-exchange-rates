@@ -1,19 +1,4 @@
 .heartrate {
-  &__resting-value {
-    font-size: var(--font-size-72);
-    font-weight: 700;
-    margin-right: var(--size-4);
-    line-height: 0.8;
-    display: inline-block;
-    color: var(--primary-content-color);
-  }
-
-  &__resting-units {
-    display: inline-block;
-    font-size: var(--font-size-12);
-    color: var(--secondary-content-color);
-  }
-
   &__footer-check-icon {
     width: 3rem;
     margin-right: var(--size-10);

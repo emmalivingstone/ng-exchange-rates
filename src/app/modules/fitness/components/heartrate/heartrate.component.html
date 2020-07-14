@@ -1,8 +1,9 @@
 <dsgn-card class="heartrate" [size]="'small'" [title]="'Resting Heartrate'" [hasFooter]="true">
   <ng-container class="card__content">
     <div class="heartrate__data">
-      <p class="heartrate__resting-value">62</p>
-      <p class="heartrate__resting-units">BPM</p>
+      <!-- TODO: Is turning off card view encapsulation the best method here? -->
+      <p class="card__value">62</p>
+      <p class="card__units">BPM</p>
     </div>
   </ng-container>
   <ng-container class="card__footer">
