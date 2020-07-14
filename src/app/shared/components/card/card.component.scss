@@ -4,6 +4,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  position: relative;
 
   &--small {
     width: var(--size-224);
@@ -15,7 +16,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
 
   &__title {
@@ -25,7 +25,8 @@
     text-align: center;
     font-family: var(--source-sans);
     letter-spacing: 0.75px;
-    margin-bottom: var(--size-12);
+    margin-bottom: var(--size-16);
+    margin-top: var(--size-48);
   }
 
   &__footer {

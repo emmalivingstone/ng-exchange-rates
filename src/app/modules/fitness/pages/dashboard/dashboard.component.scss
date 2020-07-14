@@ -8,4 +8,10 @@
   &__content {
     padding: var(--size-32) var(--size-48);
   }
+
+  &__grid {
+    display: grid;
+    gap: var(--size-48);
+    grid-template-columns: min-content auto;
+  }
 }
