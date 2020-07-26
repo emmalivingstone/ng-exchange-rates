@@ -5,4 +5,8 @@
     bottom: 0;
     border-bottom: var(--size-32) solid var(--blue-050);
   }
+
+  &__data {
+    margin-top: var(--size-12);
+  }
 }

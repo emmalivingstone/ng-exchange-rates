@@ -1,0 +1,36 @@
+.steps {
+  &__data {
+    margin-top: var(--size-12);
+  }
+
+  &__value {
+    font-size: var(--font-size-60);
+    font-weight: 700;
+    line-height: 0.7;
+    color: var(--primary-content-color);
+    text-align: center;
+    margin-bottom: var(--size-32);
+  }
+
+  &__footer-important-icon {
+    width: 2rem;
+    margin-right: var(--size-10);
+
+    .primary {
+      fill: var(--yellow-vivid-400);
+    }
+
+    .secondary {
+      fill: var(--yellow-vivid-050);
+    }
+  }
+
+  &__footer-text {
+    font-size: var(--font-size-12);
+    color: var(--secondary-content-color);
+    flex: 1;
+    display: flex;
+    align-items: center;
+    line-height: 1.2;
+  }
+}

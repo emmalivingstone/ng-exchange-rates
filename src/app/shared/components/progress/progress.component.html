@@ -1,0 +1,13 @@
+<div class="progress" [ngSwitch]="type">
+  <div *ngSwitchCase="'pie'" class="progress__pie" [ngStyle]="{ backgroundImage: getPieBackgroundImage() }">
+    <div class="progress__pie-content">
+      {{ current }}
+    </div>
+  </div>
+
+  <div *ngSwitchCase="'bar'" class="progress__bar">
+    <div class="progress__bar-total" [ngStyle]="{ backgroundColor: 'var(' + remainingColor + ')' }">
+      <div class="progress__bar-progress" [ngStyle]="{ width: getPercentage(), backgroundColor: 'var(' + progressColor + ')' }"></div>
+    </div>
+  </div>
+</div>

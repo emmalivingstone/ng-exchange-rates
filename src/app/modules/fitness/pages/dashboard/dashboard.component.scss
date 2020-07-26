@@ -6,12 +6,20 @@
   }
 
   &__content {
-    padding: var(--size-32) var(--size-48);
+    padding: var(--size-48) var(--size-48);
   }
 
+  // TODO: Change this to a CSS grid with fr for different size cards?
   &__grid {
-    display: grid;
-    gap: var(--size-48);
-    grid-template-columns: min-content auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: calc(var(--size-16) * -1);
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: center;
+  }
+
+  &__grid > * {
+    margin: var(--size-16);
   }
 }

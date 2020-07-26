@@ -1,0 +1,23 @@
+<dsgn-card class="steps" [size]="'small'" [title]="'Steps'" [hasFooter]="true">
+  <ng-container class="card__content">
+    <div class="steps__data">
+      <!-- TODO: Is turning off card view encapsulation the best method here? -->
+      <p class="steps__value">4200</p>
+      <dsgn-progress [current]="4200" [total]="10000" [type]="'bar'"></dsgn-progress>
+    </div>
+  </ng-container>
+  <ng-container class="card__footer">
+    <!-- TODO: make icon component-->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="steps__footer-important-icon icon-important">
+      <path class="primary" d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20z" />
+      <path
+        class="secondary"
+        d="M12 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm1-5.9c-.13 1.2-1.88 1.2-2 0l-.5-5a1 1 0 0 1 1-1.1h1a1 1 0 0 1 1 1.1l-.5 5z"
+      />
+    </svg>
+    <p class="steps__footer-text">
+      You're a little behind today.
+    </p>
+  </ng-container>
+</dsgn-card>
+<!-- TODO: drop and heart icons next to titles -->
