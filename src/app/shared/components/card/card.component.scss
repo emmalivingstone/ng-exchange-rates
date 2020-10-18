@@ -6,11 +6,7 @@
   flex-direction: column;
   position: relative;
   background-color: white;
-
-  &--small {
-    width: var(--size-224);
-    height: var(--size-256);
-  }
+  height: var(--size-256);
 
   &__content {
     flex: 1;

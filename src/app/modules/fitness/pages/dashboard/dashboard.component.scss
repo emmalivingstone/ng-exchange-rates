@@ -9,17 +9,20 @@
     padding: var(--size-48) var(--size-48);
   }
 
-  // TODO: Change this to a CSS grid with fr for different size cards?
-  &__grid {
-    display: flex;
-    flex-wrap: wrap;
-    margin: calc(var(--size-16) * -1);
+  &__grid-container {
     margin: 0 auto;
-    max-width: 1200px;
-    justify-content: center;
+    max-width: 800px;
   }
 
-  &__grid > * {
-    margin: var(--size-16);
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: var(--size-48) var(--size-32);
+    grid-template-areas: '. . .' 'workouts workouts workouts';
+  }
+
+  dsgn-workouts {
+    grid-area: workouts;
   }
 }

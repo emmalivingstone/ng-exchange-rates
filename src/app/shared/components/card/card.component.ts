@@ -9,5 +9,4 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
 export class CardComponent {
   @Input() title: string;
   @Input() hasFooter: boolean;
-  @Input() size = 'small';
 }
